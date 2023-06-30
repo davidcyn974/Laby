@@ -6,33 +6,43 @@ public class PlayerController : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed = 10f;
+    public float gravity = 30f;
 
-    public float xInput;
-    public float zInput;
+    private float xInput;
+    private float yInput;
 
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
+
     // Update is called once per frame
     void Update()
     {
         ProcessInputs();
     }
+
     private void ProcessInputs()
     {
         xInput = Input.GetAxis("Horizontal");
-        zInput = Input.GetAxis("Vertical");
+        yInput = Input.GetAxis("Vertical");
     }
 
     private void FixedUpdate()
     {
         Move();
+        rb.AddForce(Vector3.down * gravity);
     }
 
     private void Move()
     {
-        rb.AddForce(new Vector3(xInput, 0, zInput) * speed);
+         rb.AddForce(new Vector3(xInput, 0, yInput) * speed);
     }
 }
+
+
+
+
+
+
