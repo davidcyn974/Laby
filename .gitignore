@@ -49,11 +49,6 @@ ExportedObj/
 
 # Unity3D generated meta files
 *.meta
-*.texture.meta
-*.material.meta
-*.asset.meta
-*.brush.meta
-*.png.meta
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
