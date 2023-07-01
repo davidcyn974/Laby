@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     private float xInput;
     private float yInput;
 
+    public float ejectForce = 45f; // La force d'éjection vers le haut
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -38,6 +40,16 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
          rb.AddForce(new Vector3(xInput, 0, yInput) * speed);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Vérifie si le personnage entre en contact avec le collider de la plateforme
+        if (other.CompareTag("SpeedPlatform"))
+        {
+            // Applique une force vers le haut pour éjecter le personnage
+            rb.AddForce(Vector3.up * ejectForce, ForceMode.Impulse);
+        }
     }
 }
 
