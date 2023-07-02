@@ -106,7 +106,7 @@ Voici comment nous avons implémenté les 7 autres contraintes supplémentaires:
 <br>Le labirynthe a été généré par <a href="https://mazegenerator.net/">mazegenerator.net</a>
 - [ ] Des materials
 <br>Nous en avons mis plusieurs, par exemple un material vert pour le cube d'arrivée.
-<br>Certains 'matérials'ont été importés comme pour les murs du labyrinthe, mais très peu.
+<br>Certains 'matérials' ont été importés comme pour les murs du labyrinthe, mais très peu.
 - [ ] Shader
 <br>Un shader graph a été appliqué sur le cube d'arrivée pour le faire "briller" avec une couleur orange.
 - [ ] Particle System
