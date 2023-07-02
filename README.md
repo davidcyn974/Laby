@@ -19,11 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -54,7 +49,11 @@
       <a href="#Comment commencer">Comment commencer</a>
     </li>
     <li><a href="#Utilisation">Utilisation</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#Implémentation des différentes contraintes">Implémentation des différentes contraintes</a>
+    <ul>
+        <li><a href="#Contraintes principales">Contraintes principales</a></li>
+    </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -78,22 +77,26 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## Comment commencer
 
 Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
 Lorsque l'on appuie sur play, on arrive sur le menu principal. Dans le sous menu HELP nous avons indiqué comment jouer au jeu et finir la partie. Une fois que la partie est finie, on peut appuyer sur le bouton central et recommencer.
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
+## Implémentation des différentes contraintes
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+### Contraintes principales
 
-See the [open issues](https://github.com/davidcyn974/Laby/issues) for a full list of proposed features (and known issues).
+Les 4 principales contraintes pour ce projet étaient : 
+- [ ] Petit jeu en 3D
+- [ ] Version 2021 de Unity
+- [ ] Render Pipeline URP
+- [ ] Avoir un player principal se déplaçant dans l'espace
+
+Pour satisfaire ces contraintes, nous avons eu l'idée d'un jeu incluant une résolution de labyrinthe, ou nous prenons le contrôle d'un ballon de basket. On a ensuite converti le projet en URP.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
