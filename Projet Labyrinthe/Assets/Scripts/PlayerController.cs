@@ -85,12 +85,20 @@ public class PlayerController : MonoBehaviour
         isBoostActive = true;
         speed = 250f;
         // Attendre pendant 8 secondes
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(6f);
         renderer.material = defaultMaterial;
         yield return new WaitForSeconds(0.5f);
         renderer.material = newMaterial;
         yield return new WaitForSeconds(0.5f);
+        renderer.material = defaultMaterial;
+        yield return new WaitForSeconds(0.5f);
         renderer.material = newMaterial;
+        yield return new WaitForSeconds(0.5f);
+        renderer.material = defaultMaterial;
+        yield return new WaitForSeconds(0.5f);
+        renderer.material = newMaterial;
+        yield return new WaitForSeconds(0.5f);
+        renderer.material = defaultMaterial;
         yield return new WaitForSeconds(0.5f);
         renderer.material = newMaterial;
         yield return new WaitForSeconds(0.25f);
@@ -100,6 +108,14 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.25f);
         renderer.material = defaultMaterial;
         yield return new WaitForSeconds(0.1f);
+        renderer.material = newMaterial;
+        yield return new WaitForSeconds(0.1f);
+        renderer.material = defaultMaterial;
+         yield return new WaitForSeconds(0.1f);
+        renderer.material = newMaterial;
+        yield return new WaitForSeconds(0.1f);
+        renderer.material = defaultMaterial;
+         yield return new WaitForSeconds(0.1f);
         renderer.material = newMaterial;
         yield return new WaitForSeconds(0.1f);
         renderer.material = defaultMaterial;
