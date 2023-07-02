@@ -64,7 +64,6 @@
 <!-- ABOUT THE PROJECT -->
 ## A propos du projet
 Pour ce projet, nous avons décidé de réaliser un jeu dans lequel le but est de rejoindre un cube vert en parcourant un labyrinthe.
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `davidcyn974`, `Laby`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Laby`, `Project for the course 3DU1`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
