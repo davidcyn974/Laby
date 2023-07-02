@@ -100,19 +100,19 @@ Pour satisfaire ces contraintes, nous avons eu l'idée d'un jeu incluant une ré
 
 Voici comment nous avons implémenté les 7 autres contraintes supplémentaires:
 - [ ] Système de lighting optimisé
-A faire.
+<br>A faire.
 - [ ] Un décor approprié, optimisé
-Nous avons cherché des matériaux relativement jolis pour constituer notre labyrinthe.
+<br>Nous avons cherché des matériaux relativement jolis pour constituer notre labyrinthe.
 - [ ] Des materials
-Nous en avons mis plusieurs, par exemple un material vert pour le cube d'arrivée.
+<br>Nous en avons mis plusieurs, par exemple un material vert pour le cube d'arrivée.
 - [ ] Shader
-Un shader graph a été appliqué sur le cube d'arrivée pour le faire "briller" avec une couleur orange.
+<br>Un shader graph a été appliqué sur le cube d'arrivée pour le faire "briller" avec une couleur orange.
 - [ ] Particle System
-Nous avons mis des particules autour du ballon de basket et du cube.
+<br>Nous avons mis des particules autour du ballon de basket et du cube.
 - [ ] Physique
-Les murs du labyrinthe ne peuvent pas être traversés.
+<br>Les murs du labyrinthe ne peuvent pas être traversés.
 - [ ] Coroutine
-Nous avons implémenté une plateforme de saut dans le labyrinthe (elle est en bois).
+<br>Nous avons implémenté une plateforme de saut dans le labyrinthe (elle est en bois).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,9 +124,7 @@ Nous avons implémenté une plateforme de saut dans le labyrinthe (elle est en b
 Pour une meilleure expérience utilisateur, nous avons ajouté des menus. Le menu principal possède 3 boutons: 
 <br> 
 - Un bouton "QUIT" qui permet de quitter le jeu (si le projet est build)
-<br>
 - Un bouton "HELP" qui permet l'accès au deuxième menu qui explique les contrôles et le but du jeu
-<br>
 - Un bouton "PLAY" pour jouer au jeu.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
