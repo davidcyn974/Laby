@@ -48,16 +48,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#A propos du projet">About The Project</a>
+      <a href="#A propos du projet">A propos du projet</a>
     </li>
     <li>
-      <a href="#Comment commencer">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#Comment commencer">Comment commencer</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#Utilisation">Utilisation</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -84,14 +80,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer.
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Utilisation
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Lorsque l'on appuie sur play, on arrive sur le menu principal. Dans le sous menu HELP nous avons indiqué comment jouer au jeu et finir la partie. Une fois que la partie est finie, on peut appuyer sur le bouton central et recommencer.
 
 
 <!-- ROADMAP -->
