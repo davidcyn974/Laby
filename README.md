@@ -52,12 +52,10 @@
     <li><a href="#Implémentation des différentes contraintes">Implémentation des différentes contraintes</a>
     <ul>
         <li><a href="#Contraintes principales">Contraintes principales</a></li>
+        <li><a href="#Contraintes supplémentaires">Contraintes supplémentaires</a></li>
     </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Fonctionnalités supplémentaires">Fonctionnalités supplémentaires</a></li>
   </ol>
 </details>
 
@@ -90,7 +88,7 @@ Lorsque l'on appuie sur play, on arrive sur le menu principal. Dans le sous menu
 
 ### Contraintes principales
 
-Les 4 principales contraintes pour ce projet étaient : 
+Les 4 principales contraintes pour ce projet étaient: 
 - [ ] Petit jeu en 3D
 - [ ] Version 2021 de Unity
 - [ ] Render Pipeline URP
@@ -98,56 +96,42 @@ Les 4 principales contraintes pour ce projet étaient :
 
 Pour satisfaire ces contraintes, nous avons eu l'idée d'un jeu incluant une résolution de labyrinthe, ou nous prenons le contrôle d'un ballon de basket. On a ensuite converti le projet en URP.
 
+### Contraintes supplémentaires
+
+Voici comment nous avons implémenté les 7 autres contraintes supplémentaires:
+- [ ] Système de lighting optimisé
+A faire.
+- [ ] Un décor approprié, optimisé
+Nous avons cherché des matériaux relativement jolis pour constituer notre labyrinthe.
+- [ ] Des materials
+Nous en avons mis plusieurs, par exemple un material vert pour le cube d'arrivée.
+- [ ] Shader
+Un shader graph a été appliqué sur le cube d'arrivée pour le faire "briller" avec une couleur orange.
+- [ ] Particle System
+Nous avons mis des particules autour du ballon de basket et du cube.
+- [ ] Physique
+Les murs du labyrinthe ne peuvent pas être traversés.
+- [ ] Coroutine
+Nous avons implémenté une plateforme de saut dans le labyrinthe (elle est en bois).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Fonctionnalités supplémentaires
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Pour une meilleure expérience utilisateur, nous avons ajouté des menus. Le menu principal possède 3 boutons: 
+<br> 
+- Un bouton "QUIT" qui permet de quitter le jeu (si le projet est build)
+<br>
+- Un bouton "HELP" qui permet l'accès au deuxième menu qui explique les contrôles et le but du jeu
+<br>
+- Un bouton "PLAY" pour jouer au jeu.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/davidcyn974/Laby](https://github.com/davidcyn974/Laby)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
