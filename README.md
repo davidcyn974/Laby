@@ -31,13 +31,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/davidcyn974/Laby">
-    <img src="images/Laby.png" alt="Logo" width="80" height="80">
+    <img src="images/laby.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Laby</h3>
 
   <p align="center">
-    Project for the course 3DU1
+    Projet pour le cours 3DU1
   </p>
 </div>
 
@@ -48,13 +48,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#A propos du projet">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Comment commencer">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -72,64 +69,19 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+## A propos du projet
+Pour ce projet, nous avons décidé de réaliser un jeu dans lequel le but est de rejoindre un cube vert en parcourant un labyrinthe.
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `davidcyn974`, `Laby`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Laby`, `Project for the course 3DU1`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Comment commencer
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/davidcyn974/Laby.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
