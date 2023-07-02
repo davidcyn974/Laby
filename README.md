@@ -102,16 +102,21 @@ Voici comment nous avons implémenté les 7 autres contraintes supplémentaires:
 <br>A faire.
 - [ ] Un décor approprié, optimisé
 <br>Nous avons cherché des matériaux relativement jolis pour constituer notre labyrinthe.
+<br>Le terrain a été entièrement dessiné à la main.
+<br>Le labirynthe a été généré par <a href="https://mazegenerator.net/">mazegenerator.net</a>
 - [ ] Des materials
 <br>Nous en avons mis plusieurs, par exemple un material vert pour le cube d'arrivée.
+<br>Certains 'matérials'ont été importés comme pour les murs du labyrinthe, mais très peu.
 - [ ] Shader
 <br>Un shader graph a été appliqué sur le cube d'arrivée pour le faire "briller" avec une couleur orange.
 - [ ] Particle System
 <br>Nous avons mis des particules autour du ballon de basket et du cube.
 - [ ] Physique
 <br>Les murs du labyrinthe ne peuvent pas être traversés.
+<br>Nous avons implémenté plusieurs plateformes qui affectent la physique.
+<br>Une de saut (elle est en parquet en bois), une de vitesse.
 - [ ] Coroutine
-<br>Nous avons implémenté une plateforme de saut dans le labyrinthe (elle est en bois).
+<br>La plateforme de vitesse change le matériel associé au joueur. Et le fait à la manière d'une animation dans le temps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
