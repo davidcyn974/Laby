@@ -79,7 +79,7 @@ Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scè
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Lorsque l'on appuie sur play, on arrive sur le menu principal. Dans le sous menu HELP nous avons indiqué comment jouer au jeu et finir la partie. Une fois que la partie est finie, on peut appuyer sur le bouton central et recommencer.
+Lorsque l'on appuie sur play, on arrive sur le menu principal. Dans le sous menu HELP nous avons indiqué comment jouer au jeu et finir la partie. Une fois que la partie est finie, on peut appuyer sur le bouton central et recommencer. On peut aussi appuyer sur echap en cours de partie pour retourner au menu principal.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
@@ -99,7 +99,7 @@ Pour satisfaire ces contraintes, nous avons eu l'idée d'un jeu incluant une ré
 
 Voici comment nous avons implémenté les 7 autres contraintes supplémentaires:
 - [ ] Système de lighting optimisé
-<br>Nous avons changé la couleur de la lumière, pour faire une impression de lever de soleil. On a augmenté l'intensité aussi et changé la place.
+<br>Nous avons changé la couleur de la lumière, pour faire une impression de lever de soleil. On a augmenté son intensité aussi et changé sa place.
 - [ ] Un décor approprié, optimisé
 <br>Nous avons cherché des matériaux relativement jolis pour constituer notre labyrinthe.
 <br>Le terrain a été entièrement dessiné à la main.
