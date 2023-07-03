@@ -73,7 +73,7 @@ Pour ce projet, nous avons décidé de réaliser un jeu dans lequel le but est d
 <!-- GETTING STARTED -->
 ## Comment commencer
 
-Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer.
+Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer. Bien sur on peut aussi build le projet en allant sur "Build and run".
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
@@ -99,14 +99,14 @@ Pour satisfaire ces contraintes, nous avons eu l'idée d'un jeu incluant une ré
 
 Voici comment nous avons implémenté les 7 autres contraintes supplémentaires:
 - [ ] Système de lighting optimisé
-<br>A faire.
+<br>Nous avons changé la couleur de la lumière, pour faire une impression de lever de soleil. On a augmenté l'intensité aussi et changé la place.
 - [ ] Un décor approprié, optimisé
 <br>Nous avons cherché des matériaux relativement jolis pour constituer notre labyrinthe.
 <br>Le terrain a été entièrement dessiné à la main.
-<br>Le labirynthe a été généré par <a href="https://mazegenerator.net/">mazegenerator.net</a>
+<br>Le labyrinthe a été généré par <a href="https://mazegenerator.net/">mazegenerator.net</a>
 - [ ] Des materials
 <br>Nous en avons mis plusieurs, par exemple un material vert pour le cube d'arrivée.
-<br>Certains 'matérials' ont été importés comme pour les murs du labyrinthe, mais très peu.
+<br>Certains 'materials' ont été importés comme pour les murs du labyrinthe, mais très peu.
 - [ ] Shader
 <br>Un shader graph a été appliqué sur le cube d'arrivée pour le faire "briller" avec une couleur orange.
 - [ ] Particle System
