@@ -73,7 +73,7 @@ Pour ce projet, nous avons décidé de réaliser un jeu dans lequel le but est d
 <!-- GETTING STARTED -->
 ## Comment commencer
 
-Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer. Bien sur on peut aussi build le projet en allant sur "Build and run".
+Pour lancer notre projet, il faut aller dans Assets/Scene et cliquer sur la scène qui a pour nom Menu. C'est le menu principal à partir duquel on peut commencer à jouer. Bien sûr on peut aussi build le projet en allant sur "Build and run".
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
