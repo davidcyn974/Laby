@@ -19,7 +19,7 @@
 <h3 align="center">Laby</h3>
 
   <p align="center">
-    Projet pour le cours 3DU1
+    Projet pour le cours 3DU1, fait par Vincent Saunier et David Chane-Yock-Nam
   </p>
 </div>
 
