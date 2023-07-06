@@ -66,7 +66,7 @@ Attention cependant, lorsqu'on arrive sur la scène il faut décocher cette opti
 <br>
 <img src="images/lightampoule.png" alt="Logo" width="240" height="200">
 
-<br> Il arrive qu'on ait encore une mauvaise lumière même si on décoche l'option quand on éxécute le projet dans unity depuis le menu. Ce bug n'apparait pas quand on build le projet et après des recherches sur internet il semblerait que ce bug soit courant.
+<br> Il arrive qu'on ait encore une mauvaise lumière même si on décoche l'option quand on exécute le projet dans unity depuis le menu. Ce bug n'apparait pas quand on build le projet et après des recherches sur internet il semblerait que ce bug soit courant.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
